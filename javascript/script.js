@@ -33,7 +33,7 @@ console.log(valor2) //Retorna 5
 
 // Estrutura de repetição
 
-//let i;
+//let i; -> pode declarar o contador fora da estrutura
 
 for(let i = 0; i < 10; i++){
     document.write("Agora i vale: " + i + "<br>");
@@ -49,3 +49,5 @@ let carros = ["Gol", "Fusca", "HB20", "Corsa", "Oroch", "Duster"];
 for (let i = 0; i < carros.length; i++){
     document.write(carros[i] + "<br>");
 }
+
+
