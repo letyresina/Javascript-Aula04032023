@@ -44,7 +44,7 @@ vai incrementar sempre + 1. Ele para no 9, pois 10 é igual a 10 e não menor qu
 */
 
 //Array = várias valores em uma variável
-let carros = ["Gol", "Fusca", "HB20", "Corsa"];
+let carros = ["Gol", "Fusca", "HB20", "Corsa", "Oroch", "Duster"];
 
 for (let i = 0; i < carros.length; i++){
     document.write(carros[i] + "<br>");
