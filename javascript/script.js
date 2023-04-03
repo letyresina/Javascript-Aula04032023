@@ -3,19 +3,19 @@ let opcao = parseInt(prompt("Escolha uma opção: "));
 
 switch(opcao){
     case 1:
-        document.write("Primeira opção");
+        document.write("Primeira opção <br>");
     break;
     case 2:
-        document.write("Segunda opção");
+        document.write("Segunda opção <br>");
     break;
     case 3:
-        document.write("Terceira opção");
+        document.write("Terceira opção <br>");
     break;
     case 4:
-        document.write("Quarta opção");
+        document.write("Quarta opção <br>");
     break;
     default:
-        document.write("Opção inválida")
+        document.write("Opção inválida <br>")
     break;
 }
 
@@ -33,12 +33,19 @@ console.log(valor2) //Retorna 5
 
 // Estrutura de repetição
 
-let i;
+//let i;
 
-for(i = 0; i < 10; i++){
+for(let i = 0; i < 10; i++){
     document.write("Agora i vale: " + i + "<br>");
 }
 
 /* Em que, declarando o contador i que vale inicialmente 0, enquanto i for < (menor) que 10 ele
 vai incrementar sempre + 1. Ele para no 9, pois 10 é igual a 10 e não menor que 10.
 */
+
+//Array = várias valores em uma variável
+let carros = ["Gol", "Fusca", "HB20", "Corsa"];
+
+for (let i = 0; i < carros.length; i++){
+    document.write(carros[i] + "<br>");
+}
